@@ -19,27 +19,97 @@ function App() {
     });
   
   },[]);
+
   return (
     <div className="App">
       <CardDeck style ={{margin:"30px"}}>
         <Card border="success" >
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src="{results.poster_path}" />
           <Card.Body>
-            <Card.Title  className="text-center" >Card title</Card.Title>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
             <Button variant="outline-info" >More ...</Button>
           </Card.Body>
         </Card>
         <Card border="danger"  >
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src="{results.poster_path}" />
           <Card.Body>
-            <Card.Title className="text-center" >Card title</Card.Title>
+            <Card.Title className="text-center" >{results.Title}</Card.Title>
             <Button variant="outline-info" >More ...</Button>
           </Card.Body>
         </Card>
         <Card border="warning" >
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src="{results.poster_path}" />
           <Card.Body>
-            <Card.Title  className="text-center" >Card title</Card.Title>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+      </CardDeck>
+      <CardDeck style ={{margin:"30px"}}>
+        <Card border="success" >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+        <Card border="danger"  >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+        <Card border="warning" >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+      </CardDeck>
+      <CardDeck style ={{margin:"30px"}}>
+        <Card border="success" >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+        <Card border="danger"  >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+        <Card border="warning" >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+      </CardDeck>
+      <CardDeck style ={{margin:"30px"}}>
+        <Card border="success" >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+        <Card border="danger"  >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title className="text-center" >{results.Title}</Card.Title>
+            <Button variant="outline-info" >More ...</Button>
+          </Card.Body>
+        </Card>
+        <Card border="warning" >
+          <Card.Img variant="top" src="{results.poster_path}" />
+          <Card.Body>
+            <Card.Title  className="text-center" >{results.Title}</Card.Title>
             <Button variant="outline-info" >More ...</Button>
           </Card.Body>
         </Card>
